@@ -3,7 +3,7 @@ import Button from ".";
 //Define o componente e o titulo do componente no aplicativo storybook
 export default {
   component: Button, // O próprio componente
-  title: 'Button', //Fazendo referência ao componente na barra lateral do aplicativo Storybook
+  title: 'Qisso/Button', //Fazendo referência ao componente na barra lateral do aplicativo Storybook
 };
 
 
@@ -24,3 +24,4 @@ export const outroBotao = Template.bind({})
 outroBotao.args = {
   children: 'Outro Btn'
 }
+
